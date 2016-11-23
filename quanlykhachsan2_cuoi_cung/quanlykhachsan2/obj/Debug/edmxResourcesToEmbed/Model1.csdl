@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="quanlykhachsanModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="InHoaDon">
+    <Key>
+      <PropertyRef Name="MaHD" />
+    </Key>
+    <Property Name="MaHD" Type="Int32" Nullable="false" />
+    <Property Name="TenNV" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="NgayLap" Type="DateTime" Precision="0" />
+    <Property Name="MaPT" Type="Int32" />
+    <Property Name="Trưởng_Đoàn" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoPhong" Type="Int32" />
+    <Property Name="TongTienDV" Type="Int32" />
+    <Property Name="TongTienPhong" Type="Int32" />
+    <Property Name="TongTien" Type="Int32" />
+    <Property Name="SoPhong" Type="Int32" />
+    <Property Name="Trưởng_Phòng" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDen" Type="DateTime" Precision="0" />
+    <Property Name="NgayDi" Type="DateTime" Precision="0" />
+    <Property Name="TongNgay" Type="Int32" />
+    <Property Name="TienPhong" Type="Int32" />
+    <Property Name="TienDV" Type="Int32" />
+    <Property Name="Tien" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="quanlykhachsanEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="InHoaDons" EntityType="Self.InHoaDon" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,9 @@
+F:\Visual\C###\quanlykhachsan2\PhanQuyen\bin\Debug\PhanQuyen.dll
+F:\Visual\C###\quanlykhachsan2\PhanQuyen\bin\Debug\PhanQuyen.pdb
+F:\Visual\C###\quanlykhachsan2\PhanQuyen\obj\Debug\PhanQuyen.dll
+F:\Visual\C###\quanlykhachsan2\PhanQuyen\obj\Debug\PhanQuyen.pdb
+F:\Visual\quanlykhachsan2_cuoi\PhanQuyen\bin\Debug\PhanQuyen.dll
+F:\Visual\quanlykhachsan2_cuoi\PhanQuyen\bin\Debug\PhanQuyen.pdb
+F:\Visual\quanlykhachsan2_cuoi\PhanQuyen\obj\Debug\PhanQuyen.csprojResolveAssemblyReference.cache
+F:\Visual\quanlykhachsan2_cuoi\PhanQuyen\obj\Debug\PhanQuyen.dll
+F:\Visual\quanlykhachsan2_cuoi\PhanQuyen\obj\Debug\PhanQuyen.pdb

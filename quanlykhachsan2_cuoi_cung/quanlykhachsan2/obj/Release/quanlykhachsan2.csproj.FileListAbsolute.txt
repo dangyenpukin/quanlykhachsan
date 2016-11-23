@@ -1,0 +1,10 @@
+E:\baitapvisual\c#\quanlykhachsan2\quanlykhachsan2\bin\Release\quanlykhachsan2.exe.config
+E:\baitapvisual\c#\quanlykhachsan2\quanlykhachsan2\obj\Release\quanlykhachsan2.frmChiTietDichVu.resources
+E:\baitapvisual\c#\quanlykhachsan2\quanlykhachsan2\obj\Release\quanlykhachsan2.frmChiTietHoaDon.resources
+E:\baitapvisual\c#\quanlykhachsan2\quanlykhachsan2\obj\Release\quanlykhachsan2.frmDichVu.resources
+E:\baitapvisual\c#\quanlykhachsan2\quanlykhachsan2\obj\Release\quanlykhachsan2.frmKhachHang.resources
+E:\baitapvisual\c#\quanlykhachsan2\quanlykhachsan2\obj\Release\quanlykhachsan2.frmNhanVien.resources
+E:\baitapvisual\c#\quanlykhachsan2\quanlykhachsan2\obj\Release\quanlykhachsan2.frmPhong.resources
+E:\baitapvisual\c#\quanlykhachsan2\quanlykhachsan2\obj\Release\quanlykhachsan2.Properties.Resources.resources
+E:\baitapvisual\c#\quanlykhachsan2\quanlykhachsan2\obj\Release\quanlykhachsan2.frmTrangChu.resources
+E:\baitapvisual\c#\quanlykhachsan2\quanlykhachsan2\obj\Release\quanlykhachsan2.csproj.GenerateResource.Cache

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="quanlykhachsanModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'quanlykhachsan.dbo.InHoaDon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="InHoaDon">
+    <Key>
+      <PropertyRef Name="MaHD" />
+    </Key>
+    <Property Name="MaHD" Type="int" Nullable="false" />
+    <Property Name="TenNV" Type="nvarchar" MaxLength="30" />
+    <Property Name="NgayLap" Type="date" />
+    <Property Name="MaPT" Type="int" />
+    <Property Name="Trưởng Đoàn" Type="nvarchar" MaxLength="30" />
+    <Property Name="TongSoPhong" Type="int" />
+    <Property Name="TongTienDV" Type="int" />
+    <Property Name="TongTienPhong" Type="int" />
+    <Property Name="TongTien" Type="int" />
+    <Property Name="SoPhong" Type="int" />
+    <Property Name="Trưởng Phòng" Type="nvarchar" MaxLength="30" />
+    <Property Name="NgayDen" Type="date" />
+    <Property Name="NgayDi" Type="date" />
+    <Property Name="TongNgay" Type="int" />
+    <Property Name="TienPhong" Type="int" />
+    <Property Name="TienDV" Type="int" />
+    <Property Name="Tien" Type="int" />
+  </EntityType>
+  <EntityContainer Name="quanlykhachsanModelStoreContainer">
+    <EntitySet Name="InHoaDon" EntityType="Self.InHoaDon" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [InHoaDon].[MaHD] AS [MaHD], 
+    [InHoaDon].[TenNV] AS [TenNV], 
+    [InHoaDon].[NgayLap] AS [NgayLap], 
+    [InHoaDon].[MaPT] AS [MaPT], 
+    [InHoaDon].[Trưởng Đoàn] AS [Trưởng Đoàn], 
+    [InHoaDon].[TongSoPhong] AS [TongSoPhong], 
+    [InHoaDon].[TongTienDV] AS [TongTienDV], 
+    [InHoaDon].[TongTienPhong] AS [TongTienPhong], 
+    [InHoaDon].[TongTien] AS [TongTien], 
+    [InHoaDon].[SoPhong] AS [SoPhong], 
+    [InHoaDon].[Trưởng Phòng] AS [Trưởng Phòng], 
+    [InHoaDon].[NgayDen] AS [NgayDen], 
+    [InHoaDon].[NgayDi] AS [NgayDi], 
+    [InHoaDon].[TongNgay] AS [TongNgay], 
+    [InHoaDon].[TienPhong] AS [TienPhong], 
+    [InHoaDon].[TienDV] AS [TienDV], 
+    [InHoaDon].[Tien] AS [Tien]
+    FROM [dbo].[InHoaDon] AS [InHoaDon]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

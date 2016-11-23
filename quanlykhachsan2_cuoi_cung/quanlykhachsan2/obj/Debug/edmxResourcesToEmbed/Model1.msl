@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="quanlykhachsanModelStoreContainer" CdmEntityContainer="quanlykhachsanEntities">
+    <EntitySetMapping Name="InHoaDons">
+      <EntityTypeMapping TypeName="quanlykhachsanModel.InHoaDon">
+        <MappingFragment StoreEntitySet="InHoaDon">
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+          <ScalarProperty Name="TenNV" ColumnName="TenNV" />
+          <ScalarProperty Name="NgayLap" ColumnName="NgayLap" />
+          <ScalarProperty Name="MaPT" ColumnName="MaPT" />
+          <ScalarProperty Name="Trưởng_Đoàn" ColumnName="Trưởng Đoàn" />
+          <ScalarProperty Name="TongSoPhong" ColumnName="TongSoPhong" />
+          <ScalarProperty Name="TongTienDV" ColumnName="TongTienDV" />
+          <ScalarProperty Name="TongTienPhong" ColumnName="TongTienPhong" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+          <ScalarProperty Name="SoPhong" ColumnName="SoPhong" />
+          <ScalarProperty Name="Trưởng_Phòng" ColumnName="Trưởng Phòng" />
+          <ScalarProperty Name="NgayDen" ColumnName="NgayDen" />
+          <ScalarProperty Name="NgayDi" ColumnName="NgayDi" />
+          <ScalarProperty Name="TongNgay" ColumnName="TongNgay" />
+          <ScalarProperty Name="TienPhong" ColumnName="TienPhong" />
+          <ScalarProperty Name="TienDV" ColumnName="TienDV" />
+          <ScalarProperty Name="Tien" ColumnName="Tien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
