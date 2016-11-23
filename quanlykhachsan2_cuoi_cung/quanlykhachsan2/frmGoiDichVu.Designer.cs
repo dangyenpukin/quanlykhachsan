@@ -55,7 +55,6 @@
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDichVu)).BeginInit();
-            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachDV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,13 +73,13 @@
             this.panel1.Controls.Add(this.lblMaCTDV);
             this.panel1.Location = new System.Drawing.Point(1, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(447, 323);
+            this.panel1.Size = new System.Drawing.Size(391, 223);
             this.panel1.TabIndex = 1;
             // 
             // btnDongY
             // 
             this.btnDongY.BackColor = System.Drawing.Color.Yellow;
-            this.btnDongY.Location = new System.Drawing.Point(328, 20);
+            this.btnDongY.Location = new System.Drawing.Point(291, 87);
             this.btnDongY.Name = "btnDongY";
             this.btnDongY.Size = new System.Drawing.Size(77, 44);
             this.btnDongY.TabIndex = 69;
@@ -92,7 +91,7 @@
             // 
             this.dtpNgaySuDung.CustomFormat = "dd/MM/yyyy";
             this.dtpNgaySuDung.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpNgaySuDung.Location = new System.Drawing.Point(128, 251);
+            this.dtpNgaySuDung.Location = new System.Drawing.Point(128, 184);
             this.dtpNgaySuDung.Name = "dtpNgaySuDung";
             this.dtpNgaySuDung.Size = new System.Drawing.Size(145, 20);
             this.dtpNgaySuDung.TabIndex = 80;
@@ -100,7 +99,7 @@
             // cbSoPhong
             // 
             this.cbSoPhong.FormattingEnabled = true;
-            this.cbSoPhong.Location = new System.Drawing.Point(128, 193);
+            this.cbSoPhong.Location = new System.Drawing.Point(128, 136);
             this.cbSoPhong.Name = "cbSoPhong";
             this.cbSoPhong.Size = new System.Drawing.Size(145, 21);
             this.cbSoPhong.TabIndex = 71;
@@ -108,7 +107,7 @@
             // cbMaPT
             // 
             this.cbMaPT.FormattingEnabled = true;
-            this.cbMaPT.Location = new System.Drawing.Point(128, 135);
+            this.cbMaPT.Location = new System.Drawing.Point(128, 95);
             this.cbMaPT.Name = "cbMaPT";
             this.cbMaPT.Size = new System.Drawing.Size(145, 21);
             this.cbMaPT.TabIndex = 70;
@@ -116,7 +115,7 @@
             // cbMaDV
             // 
             this.cbMaDV.FormattingEnabled = true;
-            this.cbMaDV.Location = new System.Drawing.Point(128, 77);
+            this.cbMaDV.Location = new System.Drawing.Point(128, 59);
             this.cbMaDV.Name = "cbMaDV";
             this.cbMaDV.Size = new System.Drawing.Size(145, 21);
             this.cbMaDV.TabIndex = 69;
@@ -124,7 +123,7 @@
             // lblNgaySuDung
             // 
             this.lblNgaySuDung.AutoSize = true;
-            this.lblNgaySuDung.Location = new System.Drawing.Point(11, 252);
+            this.lblNgaySuDung.Location = new System.Drawing.Point(11, 185);
             this.lblNgaySuDung.Name = "lblNgaySuDung";
             this.lblNgaySuDung.Size = new System.Drawing.Size(77, 13);
             this.lblNgaySuDung.TabIndex = 67;
@@ -133,7 +132,7 @@
             // lblSoPhong
             // 
             this.lblSoPhong.AutoSize = true;
-            this.lblSoPhong.Location = new System.Drawing.Point(11, 194);
+            this.lblSoPhong.Location = new System.Drawing.Point(11, 144);
             this.lblSoPhong.Name = "lblSoPhong";
             this.lblSoPhong.Size = new System.Drawing.Size(54, 13);
             this.lblSoPhong.TabIndex = 62;
@@ -142,7 +141,7 @@
             // lblMaPT
             // 
             this.lblMaPT.AutoSize = true;
-            this.lblMaPT.Location = new System.Drawing.Point(11, 136);
+            this.lblMaPT.Location = new System.Drawing.Point(11, 103);
             this.lblMaPT.Name = "lblMaPT";
             this.lblMaPT.Size = new System.Drawing.Size(80, 13);
             this.lblMaPT.TabIndex = 20;
@@ -158,7 +157,7 @@
             // lblMaDV
             // 
             this.lblMaDV.AutoSize = true;
-            this.lblMaDV.Location = new System.Drawing.Point(11, 78);
+            this.lblMaDV.Location = new System.Drawing.Point(11, 60);
             this.lblMaDV.Name = "lblMaDV";
             this.lblMaDV.Size = new System.Drawing.Size(63, 13);
             this.lblMaDV.TabIndex = 3;
@@ -176,9 +175,9 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dgvDichVu);
-            this.groupBox1.Location = new System.Drawing.Point(446, 0);
+            this.groupBox1.Location = new System.Drawing.Point(398, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(604, 323);
+            this.groupBox1.Size = new System.Drawing.Size(343, 223);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Các Dịch Vụ Của Khách Sạn";
@@ -190,9 +189,9 @@
             this.dtcMaDV,
             this.dtcTenDV,
             this.dtcGia});
-            this.dgvDichVu.Location = new System.Drawing.Point(1, 20);
+            this.dgvDichVu.Location = new System.Drawing.Point(6, 32);
             this.dgvDichVu.Name = "dgvDichVu";
-            this.dgvDichVu.Size = new System.Drawing.Size(602, 303);
+            this.dgvDichVu.Size = new System.Drawing.Size(334, 191);
             this.dgvDichVu.TabIndex = 1;
             this.dgvDichVu.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDichVu_CellClick_1);
             // 
@@ -219,11 +218,10 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.dgvDanhSachDV);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox2.Location = new System.Drawing.Point(0, 322);
+            this.groupBox2.Location = new System.Drawing.Point(0, 232);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1050, 174);
+            this.groupBox2.Size = new System.Drawing.Size(750, 174);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Các Dịch Vụ Mã Phòng Đã Sử Dụng";
@@ -237,10 +235,9 @@
             this.TenDV,
             this.Gia,
             this.NgaySuDung});
-            this.dgvDanhSachDV.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvDanhSachDV.Location = new System.Drawing.Point(3, 19);
+            this.dgvDanhSachDV.Location = new System.Drawing.Point(-6, 249);
             this.dgvDanhSachDV.Name = "dgvDanhSachDV";
-            this.dgvDanhSachDV.Size = new System.Drawing.Size(1044, 152);
+            this.dgvDanhSachDV.Size = new System.Drawing.Size(747, 152);
             this.dgvDanhSachDV.TabIndex = 3;
             // 
             // MaCTDV
@@ -283,7 +280,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1050, 496);
+            this.ClientSize = new System.Drawing.Size(750, 406);
+            this.Controls.Add(this.dgvDanhSachDV);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
@@ -294,7 +292,6 @@
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDichVu)).EndInit();
-            this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachDV)).EndInit();
             this.ResumeLayout(false);
 
