@@ -405,3 +405,6 @@ E:\baitapvisual\c#\c#\quanlykhachsan2_cuoi_cung\quanlykhachsan2\obj\Debug\quanly
 E:\baitapvisual\c#\c#\quanlykhachsan2_cuoi_cung\quanlykhachsan2\obj\Debug\quanlykhachsan2.XtraReport1.resources
 E:\baitapvisual\c#\c#\quanlykhachsan2_cuoi_cung\quanlykhachsan2\obj\Debug\quanlykhachsan2.csproj.GenerateResource.Cache
 E:\baitapvisual\c#\c#\quanlykhachsan2_cuoi_cung\quanlykhachsan2\obj\Debug\quanlykhachsan2.exe.licenses
+C:\Users\Tuanbita\Documents\GitHub\quanlykhachsan\quanlykhachsan2_cuoi_cung\quanlykhachsan2\bin\Debug\quanlykhachsan2.exe.config
+C:\Users\Tuanbita\Documents\GitHub\quanlykhachsan\quanlykhachsan2_cuoi_cung\quanlykhachsan2\obj\Debug\quanlykhachsan2.exe
+C:\Users\Tuanbita\Documents\GitHub\quanlykhachsan\quanlykhachsan2_cuoi_cung\quanlykhachsan2\obj\Debug\quanlykhachsan2.pdb
