@@ -63,9 +63,9 @@
             this.dtcGia,
             this.dtcNgaySuDung});
             this.dgvChiTietDichVu.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvChiTietDichVu.Location = new System.Drawing.Point(0, 100);
+            this.dgvChiTietDichVu.Location = new System.Drawing.Point(0, 108);
             this.dgvChiTietDichVu.Name = "dgvChiTietDichVu";
-            this.dgvChiTietDichVu.Size = new System.Drawing.Size(1104, 391);
+            this.dgvChiTietDichVu.Size = new System.Drawing.Size(1104, 421);
             this.dgvChiTietDichVu.TabIndex = 0;
             // 
             // dtcMaCTDV
@@ -118,88 +118,88 @@
             // lblNgaySuDung
             // 
             this.lblNgaySuDung.AutoSize = true;
-            this.lblNgaySuDung.Location = new System.Drawing.Point(393, 61);
+            this.lblNgaySuDung.Location = new System.Drawing.Point(393, 66);
             this.lblNgaySuDung.Name = "lblNgaySuDung";
-            this.lblNgaySuDung.Size = new System.Drawing.Size(77, 13);
+            this.lblNgaySuDung.Size = new System.Drawing.Size(77, 14);
             this.lblNgaySuDung.TabIndex = 5;
             this.lblNgaySuDung.Text = "Ngày Sử Dụng";
             // 
             // lblGia
             // 
             this.lblGia.AutoSize = true;
-            this.lblGia.Location = new System.Drawing.Point(46, 61);
+            this.lblGia.Location = new System.Drawing.Point(46, 66);
             this.lblGia.Name = "lblGia";
-            this.lblGia.Size = new System.Drawing.Size(23, 13);
+            this.lblGia.Size = new System.Drawing.Size(23, 14);
             this.lblGia.TabIndex = 6;
             this.lblGia.Text = "Giá";
             // 
             // lblSoPhong
             // 
             this.lblSoPhong.AutoSize = true;
-            this.lblSoPhong.Location = new System.Drawing.Point(757, 9);
+            this.lblSoPhong.Location = new System.Drawing.Point(757, 10);
             this.lblSoPhong.Name = "lblSoPhong";
-            this.lblSoPhong.Size = new System.Drawing.Size(54, 13);
+            this.lblSoPhong.Size = new System.Drawing.Size(53, 14);
             this.lblSoPhong.TabIndex = 7;
             this.lblSoPhong.Text = "Số Phòng";
             // 
             // lblMaPT
             // 
             this.lblMaPT.AutoSize = true;
-            this.lblMaPT.Location = new System.Drawing.Point(393, 9);
+            this.lblMaPT.Location = new System.Drawing.Point(393, 10);
             this.lblMaPT.Name = "lblMaPT";
-            this.lblMaPT.Size = new System.Drawing.Size(80, 13);
+            this.lblMaPT.Size = new System.Drawing.Size(77, 14);
             this.lblMaPT.TabIndex = 8;
             this.lblMaPT.Text = "Mã Phiếu Thuê";
             // 
             // lblMaDV
             // 
             this.lblMaDV.AutoSize = true;
-            this.lblMaDV.Location = new System.Drawing.Point(46, 9);
+            this.lblMaDV.Location = new System.Drawing.Point(46, 10);
             this.lblMaDV.Name = "lblMaDV";
-            this.lblMaDV.Size = new System.Drawing.Size(63, 13);
+            this.lblMaDV.Size = new System.Drawing.Size(62, 14);
             this.lblMaDV.TabIndex = 9;
             this.lblMaDV.Text = "Mã Dịch Vụ";
             // 
             // lblMaCTDV
             // 
             this.lblMaCTDV.AutoSize = true;
-            this.lblMaCTDV.Location = new System.Drawing.Point(776, 74);
+            this.lblMaCTDV.Location = new System.Drawing.Point(776, 80);
             this.lblMaCTDV.Name = "lblMaCTDV";
-            this.lblMaCTDV.Size = new System.Drawing.Size(102, 13);
+            this.lblMaCTDV.Size = new System.Drawing.Size(100, 14);
             this.lblMaCTDV.TabIndex = 10;
             this.lblMaCTDV.Text = "Mã Chi Tiết Dịch Vụ";
             // 
             // txtMaCTDV
             // 
-            this.txtMaCTDV.Location = new System.Drawing.Point(928, 74);
+            this.txtMaCTDV.Location = new System.Drawing.Point(928, 80);
             this.txtMaCTDV.Name = "txtMaCTDV";
             this.txtMaCTDV.Size = new System.Drawing.Size(164, 20);
             this.txtMaCTDV.TabIndex = 11;
             // 
             // txtMaDV
             // 
-            this.txtMaDV.Location = new System.Drawing.Point(169, 9);
+            this.txtMaDV.Location = new System.Drawing.Point(169, 10);
             this.txtMaDV.Name = "txtMaDV";
             this.txtMaDV.Size = new System.Drawing.Size(164, 20);
             this.txtMaDV.TabIndex = 12;
             // 
             // txtMaPT
             // 
-            this.txtMaPT.Location = new System.Drawing.Point(533, 9);
+            this.txtMaPT.Location = new System.Drawing.Point(533, 10);
             this.txtMaPT.Name = "txtMaPT";
             this.txtMaPT.Size = new System.Drawing.Size(164, 20);
             this.txtMaPT.TabIndex = 13;
             // 
             // txtSoPhong
             // 
-            this.txtSoPhong.Location = new System.Drawing.Point(871, 9);
+            this.txtSoPhong.Location = new System.Drawing.Point(871, 10);
             this.txtSoPhong.Name = "txtSoPhong";
             this.txtSoPhong.Size = new System.Drawing.Size(164, 20);
             this.txtSoPhong.TabIndex = 14;
             // 
             // txtGia
             // 
-            this.txtGia.Location = new System.Drawing.Point(169, 54);
+            this.txtGia.Location = new System.Drawing.Point(169, 58);
             this.txtGia.Name = "txtGia";
             this.txtGia.Size = new System.Drawing.Size(164, 20);
             this.txtGia.TabIndex = 15;
@@ -208,7 +208,7 @@
             // 
             this.dtpNgaySuDung.CustomFormat = "dd/MM/yyyy";
             this.dtpNgaySuDung.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpNgaySuDung.Location = new System.Drawing.Point(533, 54);
+            this.dtpNgaySuDung.Location = new System.Drawing.Point(533, 58);
             this.dtpNgaySuDung.Name = "dtpNgaySuDung";
             this.dtpNgaySuDung.Size = new System.Drawing.Size(164, 20);
             this.dtpNgaySuDung.TabIndex = 51;
@@ -228,15 +228,15 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1104, 94);
+            this.panel1.Size = new System.Drawing.Size(1104, 101);
             this.panel1.TabIndex = 52;
             // 
             // frmChiTietDichVu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(1104, 491);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ClientSize = new System.Drawing.Size(1104, 529);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtMaCTDV);
             this.Controls.Add(this.lblMaCTDV);
