@@ -78,9 +78,9 @@
             this.dtcTongTienPhong,
             this.dtcTongTien});
             this.dgvHoaDon.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvHoaDon.Location = new System.Drawing.Point(0, 178);
+            this.dgvHoaDon.Location = new System.Drawing.Point(0, 171);
             this.dgvHoaDon.Name = "dgvHoaDon";
-            this.dgvHoaDon.Size = new System.Drawing.Size(934, 288);
+            this.dgvHoaDon.Size = new System.Drawing.Size(1091, 288);
             this.dgvHoaDon.TabIndex = 0;
             this.dgvHoaDon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHoaDon_CellClick);
             this.dgvHoaDon.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHoaDon_CellContentClick);
@@ -332,7 +332,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(934, 135);
+            this.panel1.Size = new System.Drawing.Size(1091, 135);
             this.panel1.TabIndex = 68;
             // 
             // panel2
@@ -341,7 +341,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 135);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(934, 38);
+            this.panel2.Size = new System.Drawing.Size(1091, 38);
             this.panel2.TabIndex = 69;
             // 
             // frmHoaDon
@@ -349,7 +349,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(934, 466);
+            this.ClientSize = new System.Drawing.Size(1091, 459);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dgvHoaDon);
