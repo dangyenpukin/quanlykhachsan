@@ -75,8 +75,6 @@ namespace quanlykhachsan2
             txtMaNV.DataBindings.Add("Text", dgvChiTietHoaDon.DataSource, "MaNV");
             dtpNgayLap.DataBindings.Clear();
             dtpNgayLap.DataBindings.Add("Text", dgvChiTietHoaDon.DataSource, "NgayLap");
-            txtMaKH.DataBindings.Clear();
-            txtMaKH.DataBindings.Add("Text", dgvChiTietHoaDon.DataSource, "MaKH");
             dtpNgayDen.DataBindings.Clear();
             dtpNgayDen.DataBindings.Add("Text", dgvChiTietHoaDon.DataSource, "NgayDen");
             dtpNgayDi.DataBindings.Clear();
